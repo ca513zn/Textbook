@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./BoxModel.css" />
+    <link rel="icon" href="./nachos.png" />
+    <title>Module 3 - Lesson 5 Box Model</title>
+  </head>
+  <body>
+    <div class="wrapper flex">
+      <div class="title">Pico de Gallo</div>
+      <div class="cupboard flex">
+        <img
+          class="icon grow"
+          src="https://cdn-icons-png.flaticon.com/512/5009/5009842.png"
+        />
+        <img
+          class="icon grow"
+          src="https://cdn-icons-png.flaticon.com/512/1790/1790387.png"
+        />
+        <img
+          class="icon grow"
+          src="https://cdn-icons-png.flaticon.com/512/7323/7323921.png"
+        />
+        <img
+          class="icon grow"
+          src="https://cdn-icons-png.flaticon.com/512/1791/1791346.png"
+        />
+        <img
+          class="icon grow"
+          src="https://cdn-icons-png.flaticon.com/512/5281/5281057.png"
+        />
+      </div>
+      <div class="controls">
+        <button class="controls__button" id="toggle-margin">
+          Toggle Margin
+        </button>
+        <button class="controls__button" id="toggle-padding">
+          Toggle Padding
+        </button>
+      </div>
+      <div class="example flex">
+        <div class="box flex title">248 x 248</div>
+      </div>
+    </div>
+  </body>
+  <script src="./BoxModel.js"></script>
+</html>

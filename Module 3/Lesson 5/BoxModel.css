@@ -1,0 +1,103 @@
+/*
+Different browsers add default margin and padding to the initial CSS of the page,
+so to offset that we explicitly define the padding and margin for all elements to be 0
+*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: url("./nachos.png"), auto;
+}
+
+body {
+  height: 100vh;
+}
+
+.title {
+  font-family: "Bungee Spice", cursive;
+  font-size: 1.8rem;
+}
+
+.grow {
+  transition: 0.3s;
+}
+
+.grow:hover {
+  transform: scale(1.5);
+  border: 4px dashed yellow;
+  padding: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #272727;
+  flex-direction: column;
+}
+
+.icon {
+  height: 92px;
+  margin: 12px;
+  padding: 12px;
+}
+
+.no-margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.cupboard {
+  margin-top: 36px;
+  column-gap: 48px;
+}
+
+.padding {
+  padding: 36px;
+}
+
+.controls {
+  margin-top: 36px;
+}
+
+.controls__button {
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  background-color: #727272;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+
+.controls__button:hover {
+  background-color: #272727;
+  border: 1px solid #727272;
+}
+
+.example {
+  margin-top: 48px;
+  background-color: lightgreen;
+  border-radius: 50%;
+}
+
+.box {
+  background-color: #1d1c1c;
+  width: 248px;
+  height: 248px;
+  border: 12px #727272 solid;
+  margin: 12px;
+  border-radius: 50%;
+}
