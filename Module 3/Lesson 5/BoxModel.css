@@ -1,7 +1,5 @@
-/*
-Different browsers add default margin and padding to the initial CSS of the page,
-so to offset that we explicitly define the padding and margin for all elements to be 0
-*/
+/* Different browsers add default margin and padding to the initial CSS of the page,
+so to offset that we explicitly define the padding and margin for all elements to be 0 */
 
 *,
 *::before,
@@ -101,3 +99,5 @@ body {
   margin: 12px;
   border-radius: 50%;
 }
+
+
